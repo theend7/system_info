@@ -1,4 +1,7 @@
 <div class="this_content">
-    <span>Browser version: {{'version...'}}</span><br/><br/>
-    <span>OS version: {{'version...'}}</span>
+    <h1>System Information</h1>
+    <p>Platform: {{ ui.system_info?.os?.platform }}</p>
+    <p>Type: {{ ui.system_info?.os?.type }}</p>
+    <p>Architecture: {{ ui.system_info?.os?.architecture }}</p>
+    <p>Release (Kernel): {{ ui.system_info?.os?.release }}</p>
 </div>
