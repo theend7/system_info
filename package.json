@@ -1,0 +1,15 @@
+{
+  "name": "user_agent",
+  "version": "1.0.0",
+  "description": "user agent init",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Darko Vulicevic",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
