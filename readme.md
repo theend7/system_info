@@ -17,3 +17,37 @@ Follow these simple steps to integrate the System Info Node.js Server into your 
    ```bash
    git clone https://github.com/theend7/system_info
    cd system_info
+
+## Install Dependencies
+
+To set up the System Info Node.js Server, follow these steps:
+
+```bash
+npm install
+
+## Start the Server
+
+Once the dependencies are installed, start the Node.js server with the following command:
+
+```bash
+npm start
+
+## Access System Information
+
+After starting the server, you can access system information by using the provided API endpoints. These endpoints allow you to retrieve various details about the user's system based on your application's requirements.
+
+
+## API Endpoints
+
+The System Info Node.js Server provides the following API endpoints to retrieve system information:
+
+- **`GET /system-info`**: Retrieve basic system information.
+
+- **`GET /cpu-info`**: Obtain detailed CPU information.(soon)
+
+- **`GET /memory-info`**: Retrieve memory-related details.(soon)
+
+- **`GET /storage-info`**: Access information about storage devices.(soon)
+
+- **`GET /network-info`**: Gather data about the network configuration.(soon)
+   
