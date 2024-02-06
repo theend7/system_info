@@ -32,6 +32,7 @@ Once the dependencies are installed, start the Node.js server with the following
 
 cd system_info/server
 node server.js
+
 You should get message that server is running on port 3000.
 Then you are ready to go! :)
 
