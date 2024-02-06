@@ -27,15 +27,16 @@ npm install
 
 ## Start the Server
 
-Once the dependencies are installed, start the Node.js server with the following command:
+Once the dependencies are installed, start the Node.js server with the following commands:
 
-```bash
-npm start
+cd system_info/server
+node server.js
+You should get message that server is running on port 3000.
+Then you are ready to go! :)
 
 ## Access System Information
 
 After starting the server, you can access system information by using the provided API endpoints. These endpoints allow you to retrieve various details about the user's system based on your application's requirements.
-
 
 ## API Endpoints
 
